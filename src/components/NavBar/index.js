@@ -21,13 +21,17 @@ const Navbar = () => {
                   </Icon>
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to="About">
+                          <NavLinks to="about">
                               About
                           </NavLinks>
-                          <NavLinks to="Experience">
+                      </NavItem>
+                      <NavItem>
+                          <NavLinks to="experience">
                               Experience
                           </NavLinks>
-                          <NavLinks to="Projects">
+                      </NavItem>
+                      <NavItem>
+                          <NavLinks to="projects">
                               Projects
                           </NavLinks>
                       </NavItem>
