@@ -10,13 +10,13 @@ import {
     NavLinks
     } from './navBarElements'
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
       <div>
           <Nav>
               <NavbarContainer>
                   <NavLogo to='/'>Home</NavLogo>
-                  <Icon>
+                  <Icon onClick={toggle}>
                       <FaBars />
                   </Icon>
                   <NavMenu>
