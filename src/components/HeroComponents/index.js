@@ -30,7 +30,10 @@ const HeroSection = () => {
                     <HeroP>Welcome to my website</HeroP>
                     <HeroBtnWrapper>
                         <Button to='about' onMouseEnter={onHover} 
-                        onMouseLeave={onHover}>
+                        onMouseLeave={onHover} 
+                        primary="true"
+                        dark="true"
+                        >
                             More about me {hover ? <ArrowForward /> : <ArrowRight/>}
                         </Button>
                     </HeroBtnWrapper>
