@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Footer from '../components/Footer'
 import HeroSection from '../components/HeroComponents'
 import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjThree, homeObjTwo } from '../components/InfoSection/data'
@@ -21,6 +22,7 @@ const Home = () => {
             <InfoSection {...homeObjOne}/>
             <InfoSection {...homeObjTwo}/>
             <InfoSection {...homeObjThree}/>
+            <Footer />
         </div>
     )
 }
