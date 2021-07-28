@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,EACE,qBAAsB,CACtB,QAAS,CACT,SAAU,CACV,2CACF","file":"main.d8353af3.chunk.css","sourcesContent":["* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: 'Courier New', Courier, monospace\n}"]}
