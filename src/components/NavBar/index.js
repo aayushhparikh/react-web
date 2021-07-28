@@ -11,6 +11,8 @@ import {
     } from './navBarElements'
 
 const Navbar = ({toggle}) => {
+    
+
     return (
       <div>
           <Nav>
@@ -21,17 +23,29 @@ const Navbar = ({toggle}) => {
                   </Icon>
                   <NavMenu>
                       <NavItem>
-                          <NavLinks to="about">
+                          <NavLinks to="about"
+                          smooth={true} 
+                          duration={500} 
+                          spy={true} 
+                          exact='true'>
                               About
                           </NavLinks>
                       </NavItem>
                       <NavItem>
-                          <NavLinks to="experience">
+                          <NavLinks to="experience"
+                           smooth={true} 
+                           duration={500} 
+                           spy={true} 
+                           exact='true'>
                               Experience
                           </NavLinks>
                       </NavItem>
                       <NavItem>
-                          <NavLinks to="projects">
+                          <NavLinks to="projects"
+                           smooth={true} 
+                           duration={500} 
+                           spy={true} 
+                           exact='true'>
                               Projects
                           </NavLinks>
                       </NavItem>
